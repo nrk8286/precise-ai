@@ -16,7 +16,7 @@ const HomePage: React.FC = () => {
 
     const [audioPlayed, setAudioPlayed] = useState(false);
     const [userMessage, setUserMessage] = useState('');
-    const [tokenName, setTokenName] = useState("Palms");
+    const [tokenName, setTokenName] = useState("Precise");
     const [tokenImage, setTokenImage] = useState("");
     const [isLoading, setIsLoading] = useState(false);
     const [responseMessage, setResponseMessage] = useState<string | null>(null);
@@ -165,12 +165,12 @@ const HomePage: React.FC = () => {
             {/* Top Navigation Bar */}
             <nav className="flex justify-between items-center px-8 py-4 bg-gray-800">
                 <div className="flex items-center">
-                    <img src="/images/PalmsLogoWhite.png" alt="Logo" className="h-10 object-contain"/>
+                    <img src="/images/PreciseLogoWhite.png" alt="Logo" className="h-10 object-contain"/>
                 </div>
                 <div className="flex space-x-6">
-                    <a href="https://aipalms.com" className="hover:text-purple-400">Home</a>
-                    <a href="https://aipalms.com/#roadmap" className="hover:text-purple-400">Roadmap</a>
-                    <a href="https://github.com/gableon/palms-open-api" className="hover:text-purple-400">Github</a>
+                    <a href="https://thepreciseai.com" className="hover:text-purple-400">Home</a>
+                    <a href="https://thepreciseai.com/#roadmap" className="hover:text-purple-400">Roadmap</a>
+                    <a href="https://github.com/precise-AI/precise-open-api" className="hover:text-purple-400">Github</a>
                     <div className="relative group">
                         <a
                             href="#"
@@ -300,7 +300,7 @@ const HomePage: React.FC = () => {
 
             {/* Footer Section */}
             <footer className="mt-16 py-6 bg-gray-800 text-center">
-                <p className="text-gray-400">&copy; 2024 Palms AI. All rights reserved.</p>
+                <p className="text-gray-400">&copy; 2024 Precise AI. All rights reserved.</p>
             </footer>
         </div>
     );
