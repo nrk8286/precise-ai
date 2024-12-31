@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "Palms AI",
+    title: "Precise AI",
     description: "GPT trade assistant in the palm of your hand.",
 };
 
