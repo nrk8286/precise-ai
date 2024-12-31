@@ -35,3 +35,4 @@ export async function fetchTopSolanaTokens(): Promise<FeaturedToken[]> {
         return [];
     }
 }
+ 
